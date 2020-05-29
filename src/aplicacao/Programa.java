@@ -7,7 +7,7 @@ public class Programa {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Locale.setDefault(Locale.US);
+Locale.setDefault(Locale.US);
 		
 		Scanner sc = new Scanner(System.in);
 		
@@ -68,6 +68,14 @@ public class Programa {
 				System.out.println("4 - Sair");
 				System.out.println("Digite uma opcão: ");
 				opcao = sc.nextInt();
+			}
+			
+			if (opcao == 1) {
+				System.out.println();
+				System.out.println("Total de horas = " + totalHoras);
+			} else if (opcao == 2) {
+				System.out.println();
+				System.out.printf("Custo total = R$ %.2f%n", totalValorHora);
 			}
 		}
 
