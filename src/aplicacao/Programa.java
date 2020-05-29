@@ -46,6 +46,30 @@ public class Programa {
 			System.out.println("Digitar outro (S/N)? ");
 			continua = sc.next().charAt(0);
 		}
+		
+		while (opcao < 4) {
+			System.out.println();
+			System.out.println("MENU");
+			System.out.println("1 - Total de horas trabalhadas");
+			System.out.println("2 - Custo total");
+			System.out.println("3 - Nome da pessoa que ganhou mais");
+			System.out.println("4 - Sair");
+			System.out.println("Digite uma opcão: ");
+			opcao = sc.nextInt();
+			while (opcao < 1 || opcao > 4) {
+				System.out.println();
+				System.out.println("OPÇÃO INVÁLIDA! ");
+				
+				System.out.println();
+				System.out.println("MENU");
+				System.out.println("1 - Total de horas trabalhadas");
+				System.out.println("2 - Custo total");
+				System.out.println("3 - Nome da pessoa que ganhou mais");
+				System.out.println("4 - Sair");
+				System.out.println("Digite uma opcão: ");
+				opcao = sc.nextInt();
+			}
+		}
 
 	}
 
