@@ -76,6 +76,7 @@ Locale.setDefault(Locale.US);
 			} else if (opcao == 2) {
 				System.out.println();
 				System.out.printf("Custo total = R$ %.2f%n", totalValorHora);
+				System.out.println("Correção: Tratativas 1 e 2");
 			}
 		}
 
